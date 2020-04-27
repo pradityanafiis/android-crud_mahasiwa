@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AppCRUD</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="imageOptions" />
+    <string name="foto_mahasiswa">Foto Mahasiswa</string>
+    <string name="alamat_mahasiswa">Alamat Mahasiswa</string>
+    <string name="nama_mahasiswa">Nama Mahasiswa</string>
+    <string name="nrp">NRP</string>
+    <string name="add_mahasiswa">ADD MAHASISWA</string>
+    <string-array name="imageOptions">
+        <item>Take a Picture</item>
+        <item>Select from Gallery</item>
+    </string-array>
+</resources>

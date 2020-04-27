@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp">
+
+    <TextView
+        android:text="NRP"
+        style="@style/EditTextTitle"/>
+
+    <EditText
+        android:id="@+id/edt_nrp"
+        android:inputType="number"
+        android:maxLength="10"
+        android:enabled="false"
+        style="@style/EditTextBase"/>
+
+    <TextView
+        android:text="Nama Mahasiswa"
+        style="@style/EditTextTitle"/>
+
+    <EditText
+        android:id="@+id/edt_name"
+        android:inputType="textCapWords"
+        android:maxLines="1"
+        style="@style/EditTextBase"/>
+
+    <TextView
+        android:text="Alamat Mahasiswa"
+        style="@style/EditTextTitle"/>
+
+    <EditText
+        android:id="@+id/edt_address"
+        android:inputType="textCapSentences"
+        android:maxLines="1"
+        style="@style/EditTextBase"/>
+
+    <TextView
+        android:text="Foto Mahasiswa"
+        style="@style/EditTextTitle"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_mahasiswa"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_account_circle_black_512dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/btn_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="Update Mahasiswa"
+            android:textSize="15sp"
+            android:layout_gravity="end"/>
+    </RelativeLayout>
+</LinearLayout>
